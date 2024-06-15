@@ -61,3 +61,9 @@ footer {
         position: relative;
     }
 }
+.logo {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
